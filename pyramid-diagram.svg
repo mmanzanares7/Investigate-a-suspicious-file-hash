@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1300 700" xmlns="http://www.w3.org/2000/svg">
+<style>.lvl-label{font:600 15px sans-serif;fill:#1C2B39;} .ioc-label{font:12.5px sans-serif;fill:#23313C;} .diff{font:italic 11.5px sans-serif;fill:#62727C;} .title{font:600 20px sans-serif;fill:#1C2B39;} .hdr{font:700 12.5px sans-serif;}</style>
+<rect x="0" y="0" width="1300" height="700" fill="#F6F7F5"/>
+<text x="650" y="34" text-anchor="middle" class="title">Pyramid of Pain: Flagpro Malware IoCs</text>
+<text x="60" y="60" class="hdr" fill="#62727C">Attacker pain if blocked</text>
+<text x="900" y="60" class="hdr" fill="#1C2B39">IoC found during investigation</text>
+<polygon points="620.0,90 620.0,90 666.6666666666666,168 573.3333333333334,168" fill="#F3E2E2" stroke="#7A1F1F" stroke-width="2"/>
+<text x="620" y="134.0" text-anchor="middle" class="lvl-label">TTPs</text>
+<text x="900" y="121.0" class="ioc-label">Command and Control behavior,</text>
+<text x="900" y="138.0" class="ioc-label">identified via MITRE ATT&amp;CK</text>
+<text x="60" y="121.0" class="diff">Hardest to change —</text>
+<text x="60" y="136.0" class="diff">forces attacker to alter behavior</text>
+<polygon points="573.3333333333334,168 666.6666666666666,168 713.3333333333334,246 526.6666666666666,246" fill="#F5E6DA" stroke="#8C3A1D" stroke-width="2"/>
+<text x="620" y="212.0" text-anchor="middle" class="lvl-label">Tools</text>
+<text x="900" y="199.0" class="ioc-label">Password-protected archive</text>
+<text x="900" y="216.0" class="ioc-label">used to deliver the payload</text>
+<text x="60" y="199.0" class="diff">Hard — attacker must</text>
+<text x="60" y="214.0" class="diff">rebuild their tooling</text>
+<polygon points="526.6666666666666,246 713.3333333333334,246 760.0,324 480.0,324" fill="#F7EEDC" stroke="#9C5A1B" stroke-width="2"/>
+<text x="620" y="290.0" text-anchor="middle" class="lvl-label">Network/Host Artifacts</text>
+<text x="900" y="277.0" class="ioc-label">HTTP requests made to</text>
+<text x="900" y="294.0" class="ioc-label">attacker infrastructure</text>
+<text x="60" y="277.0" class="diff">Moderate — attacker must</text>
+<text x="60" y="292.0" class="diff">change infrastructure</text>
+<polygon points="480.0,324 760.0,324 806.6666666666666,402 433.33333333333337,402" fill="#F7F3DC" stroke="#8C7A1B" stroke-width="2"/>
+<text x="620" y="368.0" text-anchor="middle" class="lvl-label">Domain Names</text>
+<text x="900" y="363.0" class="ioc-label">org.misecure.com</text>
+<text x="60" y="355.0" class="diff">Moderate — attacker can</text>
+<text x="60" y="370.0" class="diff">register a new domain</text>
+<polygon points="433.33333333333337,402 806.6666666666666,402 853.3333333333334,480 386.66666666666663,480" fill="#E6F0DD" stroke="#4E7A2E" stroke-width="2"/>
+<text x="620" y="446.0" text-anchor="middle" class="lvl-label">IP Addresses</text>
+<text x="900" y="441.0" class="ioc-label">207.148.109.242</text>
+<text x="60" y="433.0" class="diff">Easy — attacker can</text>
+<text x="60" y="448.0" class="diff">rotate to a new IP</text>
+<polygon points="386.66666666666663,480 853.3333333333334,480 900.0,558 340.0,558" fill="#DCEFE9" stroke="#2E7D6B" stroke-width="2"/>
+<text x="620" y="524.0" text-anchor="middle" class="lvl-label">Hash Values</text>
+<text x="900" y="511.0" class="ioc-label">MD5: 287d612e29b71c90aa5</text>
+<text x="900" y="528.0" class="ioc-label">4947313810a25</text>
+<text x="60" y="511.0" class="diff">Trivial — attacker can</text>
+<text x="60" y="526.0" class="diff">alter the file in seconds</text>
+</svg>
